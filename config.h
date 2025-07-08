@@ -89,6 +89,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 	{ 0,                            XK_Print,  spawn,          SHCMD("flameshot gui") },
+	{ MODKEY,                       XK_l,      spawn,          SHCMD("slock") },
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
 	TAGKEYS(                        XK_3,                      2)
